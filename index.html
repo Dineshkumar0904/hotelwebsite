@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font-awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- swiper js cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- css-link -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fa-solid fa-hotel"></i> hotel </a>
+  
+        <nav class="navbar">
+           <a href="#home">home</a>
+           <a href="#about">about</a>
+           <a href="#room">room</a>
+           <a href="#gallery">gallery</a>
+           <a href="#review">review</a>
+           <a href="#faq">faq</a>
+           <a href="#reservation" class="btn"> book now</a>
+        </nav>
+  
+        <div id="menu-btn" class="fas fa-bars"></div>
+  
+     </header>
+
+     <!-- end -->
+
+    <!-- home -->
+    <section class="home" id="home">
+
+      <div class="swiper home-slider">
+
+         <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide" style="background: url(./home-slide1.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(./home-slide2.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(./home-slide3.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+            <div class="swiper-slide slide" style="background: url(./home-slide4.jpg) no-repeat;">
+               <div class="content">
+                  <h3>it's where dreams come true</h3>
+                  <a href="#" class="btn"> visit our offer</a>
+               </div>
+            </div>
+
+         </div>
+
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+
+      </div>
+
+   </section>
+
+   <!-- availability -->
+
+   <section class="availability">
+      <form action="">
+         <div class="box">
+            <p>Check in <span>*</span></p>
+            <input type="date" class="input">
+         </div>
+         <div class="box">
+            <p>Check out <span>*</span></p>
+            <input type="date" class="input">
+         </div>
+         <div class="box">
+            <p>Adults <span>*</span></p>
+            <select name="adults" id="" class="input">
+               <option value="1">1 adults</option>
+               <option value="2">2 adults</option>
+               <option value="3">3 adults</option>
+               <option value="4">4 adults</option>
+               <option value="5">5 adults</option>
+               <option value="6">6 adults</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>Childern <span>*</span></p>
+            <select name="Childern" id="" class="input">
+               <option value="1">1 child</option>
+               <option value="2">2 child</option>
+               <option value="3">3 child</option>
+               <option value="4">4 child</option>
+               <option value="5">5 child</option>
+               <option value="6">6 child</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>Rooms <span>*</span></p>
+            <select name="Rooms" id="" class="input">
+               <option value="1">1 rooms</option>
+               <option value="2">2 rooms</option>
+               <option value="3">3 rooms</option>
+               <option value="4">4 rooms</option>
+               <option value="5">5 rooms</option>
+               <option value="6">6 rooms</option>
+            </select>
+         </div>
+
+         <input type="submit" value="Check availability" class="btn">
+      </form>
+   </section>
+ <!-- about -->
+
+ <section class="about" id="about">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="./about.jpg" alt="">
+      </div>
+
+      <div class="content">
+         <h3>About us :-</h3>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nesciunt blanditiis maxime natus repudiandae veritatis alias laboriosam neque cum! Est adipisci assumenda, ad debitis iusto laudantium repellat aliquam dolore voluptates.</p>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione nesciunt blanditiis maxime natus repudiandae veritatis alias laboriosam neque cum! Est adipisci assumenda, ad debitis iusto laudantium repellat aliquam dolore voluptates.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- end --> 
+
+<!-- rooms -->
+
+<section class="rooms" id="rooms">
+   <h1 class="heading">Our Room</h1>
+   <div class="swiper room-slide">
+      <div class="swiper-wrapper">
+         <div class="swiper-slide slide">
+            <div class="image">
+               <span class="price">$15.00</span>
+               <img src="./room-1.jpg" alt="">
+               <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+            <div class="content">
+               <h3>exclusive room</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nisi.</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <a href="#" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <span class="price">$15.00</span>
+               <img src="./room-1.jpg" alt="">
+               <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+            <div class="content">
+               <h3>exclusive room</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nisi.</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <a href="#" class="btn">book now</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <span class="price">$15.00</span>
+               <img src="./room-1.jpg" alt="">
+               <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+            <div class="content">
+               <h3>exclusive room</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nisi.</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <a href="#" class="btn">book now</a>
+            </div>
+         </div>
+
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <span class="price">$15.00</span>
+               <img src="./room-1.jpg" alt="">
+               <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+            <div class="content">
+               <h3>exclusive room</h3>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente nisi.</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+               </div>
+               <a href="#" class="btn">book now</a>
+            </div>
+         </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="./hotel.js"></script>
+</body>
+</html>
